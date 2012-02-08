@@ -1,0 +1,10 @@
+#front-image {
+  background: url(./images/front-image-b.png) no-repeat;
+}
+
+body.layout-a #front-image {
+  background: url(./images/front-image-a.png) no-repeat;
+}
+#header-container {
+  background: url(./images/header.png) top left no-repeat;
+}

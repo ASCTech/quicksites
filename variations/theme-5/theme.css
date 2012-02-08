@@ -1,0 +1,98 @@
+#admin-menu {
+  font-size: 12px;
+}
+#admin-menu li li.expandable ul {
+    margin: -20px 0 0 200px;
+}
+#admin-menu li li {
+    background: none repeat scroll 0 0 #202020;
+    opacity: 0.88;
+    width: 200px;
+}
+#admin-menu li li.expandable {
+    background-position: 185px 7px;
+}
+
+/* Front */
+
+#front-image {
+  background: transparent url(images/front-image-b.png) no-repeat;
+}
+
+body.layout-a #front-image {
+  background: transparent url(images/front-image-a.png) no-repeat;
+}
+
+
+/* Sidebar */
+#sidebar-filler {
+  background-color: #CFB07E;
+}
+
+#sidebar ul.menu li a.active {
+  background-color: #E4E2DF;
+  padding-left: 20px;
+}
+
+#sidebar {
+  border-top-color: #4f4330;
+}
+
+#sidebar .see-all-events-link {
+  text-transform: uppercase;
+}
+#sidebar .calendar-calendar {
+  margin-left: -4px;
+}
+#sidebar .calendar-calendar .mini {
+  margin-left: 4px;
+}
+
+#sidebar .calendar-calendar .month-view table {
+  background-color: #5A5347;
+  border: 1px solid #5A5347;
+  margin-left: 2px;
+  text-transform: uppercase;
+}
+
+#sidebar .calendar-calendar tbody {
+  border-left: 2px solid #FFFFFF;
+  border-right: 2px solid #FFFFFF;
+}
+
+#sidebar .calendar-calendar .month-view table.mini thead {
+  background-color: #AFA9A0;
+  border: 1px solid #AFA9A0;
+}
+
+#sidebar .calendar-calendar .month-view .date-nav {
+  background-color: #5A5347;
+  border: 1px solid #5A5347;
+  margin-left: 2px;
+  text-transform: uppercase;
+}
+
+#sidebar .calendar-calendar .month-view table.mini thead th {
+  background-color: #AFA9A0;
+}
+
+#sidebar .calendar-calendar .month-view table.mini tbody td {
+  border-color: #EBEAE7;
+  text-align: center;
+}
+
+#sidebar .calendar-calendar .month-view table.mini td.has-events {
+  color: #990000;
+}
+
+#sidebar .calendar-calendar .month-view table.mini td.today {
+  background-color: #F2F1F0;
+}
+
+#sidebar .calendar-calendar .month-view table.mini td.has-events:hover {
+  background-color: #EBEAE7;
+}
+
+#sidebar .calendar-calendar .month-view table.mini td.active {
+  background-color: #E4E2DF;
+}
