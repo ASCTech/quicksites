@@ -1,7 +1,7 @@
 <p>
 
 <?php if(user_is_logged_in()) { ?>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" style="margin-right: 5px; text-decoration: none; border-bottom: none;"><img src="<?php print base_path() . path_to_theme();?>/icons/w3c_css.png" height="13px" title="Validate CSS" alt="Validate CSS" /></a>h
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" style="margin-right: 5px; text-decoration: none; border-bottom: none;"><img src="<?php print base_path() . path_to_theme();?>/icons/w3c_css.png" height="13px" title="Validate CSS" alt="Validate CSS" /></a>
 	<a href="http://validator.w3.org/check?uri=referer" style="margin-right: 5px; text-decoration: none; border-bottom: none;"><img src="<?php print base_path() . path_to_theme();?>/icons/w3c_xhtml.png" height="13px" title="Validate XHTML" alt="Validate XHTML" /></a>
 <?php } ?>
 
