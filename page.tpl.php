@@ -93,7 +93,7 @@ $no_title_node_types = array("qs_events", "qs_people");
 
 <body class="<?php print $body_classes; ?>">
 
-  <?php require_once("sites/all/files/navbar/osu-navbar-b-custom.php"); ?>
+  <?php require_once("navbar/osu-navbar-b-custom.php"); ?>
 
   <div id="header" style="background-color: <?php print $quickSites_header_left_color; ?>;">
     <div class="container">
@@ -136,7 +136,7 @@ $no_title_node_types = array("qs_events", "qs_people");
   <div id="footer_copyright" class="clearfix">
     <div class="small">
       <p>&copy; <?php print date("Y"); ?>, The Ohio State University, Designed by <a href="http://asccomm.osu.edu" title="ASC Communications website">Arts and Sciences Communications Services</a></p>
-      <?php include("sites/all/files/icons/uicons_basic.php"); ?>
+      <?php include("icons/uicons_basic.php"); ?>
     </div>
   </div>
 
