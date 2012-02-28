@@ -157,7 +157,7 @@ body.page-events #leftcontent .view-id-Events td {
 }
 
 body.page-events #leftcontent .view-id-Events td.views-field-field-ascevents-image-fid img {
-  border: 2px solid #999;
+  border: 1px solid #666;
   margin-right: -9px;
 }
 
@@ -314,7 +314,7 @@ body.node-type-qs-events div.field + p {
 }
 
 .feature-large.view-id-Events .views-field-field-ascevents-image-fid img {
-  border: 2px solid #999;
+  border: 1px solid #666;
   margin-bottom: 5px;
 }
 

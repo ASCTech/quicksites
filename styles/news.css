@@ -1,7 +1,7 @@
 /* News List */
 
 body.page-news .view-id-News .views-field-field-ascnews-image-fid img {
-  border: 2px solid #999;
+  border: 1px solid #666;
   margin: 0 10px 10px 0;
   float: left;
 }
