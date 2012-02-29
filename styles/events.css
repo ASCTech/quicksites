@@ -317,6 +317,9 @@ body.node-type-qs-events div.field + p {
   border: 1px solid #666;
   margin-bottom: 5px;
 }
+img.imagefield-field_ascevents_image {
+  border: 1px solid #666;
+}
 
 .feature-large.view-id-Events .views-row .views-field-title {
   width: auto;
