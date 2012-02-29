@@ -6,9 +6,9 @@
 <?php } ?>
 
 <?php if(!user_is_logged_in()) { ?>
-	<a href="/Shibboleth.sso/Login?target=<?php print drupal_get_destination();?>" style="text-decoration: none; border-bottom: none;"><img src="<?php print base_path() . path_to_theme();?>/icons/user.gif" height="13px" title="Site Administrator Login" alt="Site Administrator Login" /></a>
+	<a href="/Shibboleth.sso/Login?target=<?php print urlencode($base_url . base_path());?>" style="text-decoration: none; border-bottom: none;"><img src="<?php print base_path() . path_to_theme();?>/icons/user.gif" height="13px" title="Site Administrator Login" alt="Site Administrator Login" /></a>
 <?php } else { ?>
-	<a href="/Shibboleth.sso/Logout?target=<?php print drupal_get_destination();?>" style="text-decoration: none; border-bottom: none;"><img src="<?php print base_path() . path_to_theme();?>/icons/user_out.gif" height="13px" title="Logout" alt="Logout" /></a>
+	<a href="/Shibboleth.sso/Logout?target=<?php print urlencode($base_url . base_path());?>" style="text-decoration: none; border-bottom: none;"><img src="<?php print base_path() . path_to_theme();?>/icons/user_out.gif" height="13px" title="Logout" alt="Logout" /></a>
 <?php } ?>
 </p>
 
