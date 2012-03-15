@@ -103,7 +103,20 @@ body.node-type-qs-news .field-field-ascnews-image {
   background: url(../images/features-title-news.png) no-repeat right bottom;
 }
 
+.block-poll {
+  border-right: 1px solid;
+  height: 287px;
+}
+
+.block-poll h3 {
+  background: url(/sites/all/themes/quicksites/images/features-title-poll.png) no-repeat right bottom;
+  height: 37px;
+}
+
 .feature.view-id-News .views-field-field-ascnews-image-fid img {
+  border: 1px solid #666;
+}
+img.imagefield-field_ascnews_image {
   border: 1px solid #666;
 }
 

@@ -56,7 +56,14 @@ $no_title_node_types = array("qs_events", "qs_people");
       .feature .view-header {
         background-color:' . $quickSites_features_color . ';
       }
+      .block-poll h3 {
+        background-color:' . $quickSites_features_color . ';
+        color:' . $quickSites_features_color . ';
+      }
       .feature .view-content {
+        border-color:' . $quickSites_features_color . ';
+      }
+      .block-poll {
         border-color:' . $quickSites_features_color . ';
       }
       #front-header-tile {
