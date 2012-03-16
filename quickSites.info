@@ -20,6 +20,7 @@ stylesheets[screen][] = styles/front.css
 stylesheets[all][] = styles/navbar.css
 stylesheets[print][] = styles/print.css
 stylesheets[all][] = variations/theme-0/theme.css
+stylesheets[screen][] = styles/datepicker_overrides.css
 
 regions[front_image] = Front Page - Image
 regions[front_text] = Front Page - Text
