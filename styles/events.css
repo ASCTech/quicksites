@@ -169,8 +169,8 @@ body.page-events #leftcontent .view-id-Events td.views-field-title {
 /* Event Node */
 
 body.node-type-qs-events #title + div {
-  border-top: 1px solid #ccc;
   padding-top: 15px;
+  margin-top:-45px;
 }
 
 body.node-type-qs-events #leftcontent > .content {
@@ -198,8 +198,12 @@ body.node-type-qs-events .field-title {
 
 body.node-type-qs-events .field-field-ascevents-date,
 body.node-type-qs-events .field-field-ascevents-location {
-  font-size: 84.6%;
+  font-size: 1.15em;
   color: #333;
+}
+
+body.node-type-qs-events .field-field-ascevents-location {
+  margin-bottom: 25px;
 }
 
 body.node-type-qs-events div.field + p {
