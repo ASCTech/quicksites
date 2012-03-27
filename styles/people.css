@@ -62,7 +62,7 @@ body.page-directory .view-id-People table td {
   vertical-align: top;
 }
 
-body.page-directory .view-id-People td.views-field-field-ascpeople-image-fid a {
+body.page-directory .view-id-People td.views-field-field-ascpeople-image-fid {
   display: block;
   width: 46px;
   height: 62px;
