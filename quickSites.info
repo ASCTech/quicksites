@@ -24,9 +24,10 @@ stylesheets[all][] = variations/theme-0/theme.css
 regions[front_image] = Front Page - Image
 regions[front_text] = Front Page - Text
 regions[front_links] = Front Page - Quick Links
-regions[front_block1] =  Front Page - Small Block - Left (Layouts A and B only)
-regions[front_block2] =  Front Page - Small Block - Right (Layouts A and B only)
-regions[front_block3] =  Front Page - Large Block (Layouts A and B only)
+regions[front_a] =  Front Page - A Zone (B & C Only)
+regions[front_b] =  Front Page - B Zone
+regions[front_c] =  Front Page - C Zone
+regions[front_d] =  Front Page - D Zone
 
 regions[MainNav] = Main Navigation
 regions[right] = Right Sidebar

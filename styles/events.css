@@ -328,3 +328,7 @@ img.imagefield-field_ascevents_image {
 .feature-large.view-id-Events .views-row .views-field-title {
   width: auto;
 }
+
+#block-views-Events-block_1 {
+  width: 230px;
+}

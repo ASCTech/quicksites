@@ -6,6 +6,9 @@
 			</div>
 			<div id="front-header-tile">
 				<div id="front-text" class="span-8 append-3">
+					<?php if($messages){ ?>
+						<div id="message"><?php print $messages; ?></div>
+					<?php } ?>
 					<?php print $front_text; ?>
 				</div>
 				<div id="front-links" class="span-8 append-3">
@@ -24,35 +27,28 @@
 	<div id="main-content" class="container">
 		<a id="page-content"></a>
 		<div>
-
-			<div class="content"><?php if($quickSites_layout == 'a'){ ?><div><?php } ?>
-				<?php if($messages){ ?>
-					<div id="message"><?php print $messages; ?></div>
-				<?php } ?>
-				<div id="front-content" class="span-12 last">
-					<?php print $before_content ?>
-					<?php print $after_content ?>
-				</div>
-				<?php if($quickSites_layout == 'a' || $quickSites_layout == 'b'){ ?>
 				<div id="features">
-					<div id="front_block1" class="feature span-6">
+					<div id="front_blocka" class="feature span-12">
 						<div class="content">
-							<?php print $front_block1; ?>
+							<?php print $front_a; ?>
 						</div>
 					</div>
-					<div id="front_block2" class="feature span-6">
+					<div id="front_blockb" class="feature span-12 last">
 						<div class="content">
-							<?php print $front_block2; ?>
+							<?php print $front_b; ?>
 						</div>
 					</div>
-					<div id="front_block3" class="feature span-12 last">
+					<div id="front_blockc" class="feature span-12">
 						<div class="content">
-							<?php print $front_block3; ?>
+							<?php print $front_c; ?>
+						</div>
+					</div>
+					<div id="front_blockd" class="feature span-12 last">
+						<div class="content">
+							<?php print $front_d; ?>
 						</div>
 					</div>
 				</div>
-				<?php } ?>
-			</div><?php if($quickSites_layout == 'a'){ ?></div><?php } ?>
 
 		</div><!-- #leftcontent-nostyle -->
 
