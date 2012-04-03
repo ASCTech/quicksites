@@ -121,6 +121,10 @@ body.layout-a #front-image {
   overflow: hidden;
 }
 
+.view-id-front_page .view-content {
+  position: absolute;
+}
+
 .view-id-front_page .views-field-nothing {
   background: url(../images/pagefade.png) repeat-x left bottom;
   height: 30px;
