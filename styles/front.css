@@ -116,17 +116,12 @@ body.layout-a #front-image {
 
 /* Page Content */
 
-body.layout-b #front-content .view-front-page .views-field-body,
-body.layout-c #front-content .view-front-page .views-field-body {
+.view-front-page .views-field-body {
   height: 277px;
   overflow: hidden;
 }
 
-body.layout-a #front-content .view-front-page .views-field-body {
-  overflow: hidden;
-}
-
-#front-content .view-id-front_page .views-field-nothing {
+.view-id-front_page .views-field-nothing {
   background: url(../images/pagefade.png) repeat-x left bottom;
   height: 30px;
   width: 100%;
@@ -134,8 +129,8 @@ body.layout-a #front-content .view-front-page .views-field-body {
   bottom: 0px;
 }
 
-#front-content .view-id-front_page .views-field-view-node a,
-#front-content .view-id-front_page .views-field-edit-node a {
+.view-id-front_page .views-field-view-node a,
+.view-id-front_page .views-field-edit-node a {
   position: absolute;
   bottom: 0;
   line-height: 1.07em;
@@ -143,7 +138,7 @@ body.layout-a #front-content .view-front-page .views-field-body {
   margin-bottom: -15px;
 }
 
-#front-content .view-id-front_page .views-field-edit-node a {
+.view-id-front_page .views-field-edit-node a {
   right: 0;
 }
 
@@ -180,7 +175,7 @@ body.layout-b #features {
   padding: 20px 10px 0;
 }
 
-.feature .block-views > .content {
+.feature .view-content {
   position:relative;
   margin-bottom: 30px;
 }
@@ -229,3 +224,11 @@ div#block-views-front_page-block_1 {
     overflow: hidden;
     font-size: 13px;
   }
+
+#front_blocka {
+    min-height: 315px;
+}
+
+#front_blockb {
+    min-height: 315px;
+}
