@@ -28,23 +28,23 @@
 		<a id="page-content"></a>
 		<div>
 				<div id="features">
-					<div id="front_blocka" class="feature span-12">
-						<div class="span-12" style="margin-top: -1px; height: 1px;">&nbsp;</div>
+					<div id="front_blocka" class="span-12">
+						<div class="span-12" style="top: -1px; height: 1px;">&nbsp;</div>
 						<div class="content">
 							<?php print $front_a; ?>
 						</div>
 					</div>
-					<div id="front_blockb" class="feature span-12 last">
+					<div id="front_blockb" class="span-12 last">
 						<div class="content">
 							<?php print $front_b; ?>
 						</div>
 					</div>
-					<div id="front_blockc" class="feature span-12">
+					<div id="front_blockc" class="span-12">
 						<div class="content">
 							<?php print $front_c; ?>
 						</div>
 					</div>
-					<div id="front_blockd" class="feature span-12 last">
+					<div id="front_blockd" class="span-12 last">
 						<div class="content">
 							<?php print $front_d; ?>
 						</div>
