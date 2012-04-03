@@ -58,21 +58,6 @@ body.layout-a #front-image {
   overflow: hidden;
 }
 
-#front-image,
-#front-image div.block-block {
-  height: 583px;
-}
-
-body.layout-a #front-image,
-body.layout-a #front-image div.block-block {
-  height: 263px;
-}
-
-#front-text, #front-links {
-  position: absolute;
-  left: 35px;
-}
-
 #front-text {
   top: 30px;
 }
@@ -122,12 +107,6 @@ body.layout-a #front-image div.block-block {
   float: right;
   position: relative;
 }
-
-body.layout-b #front-content,
-body.layout-c #front-content {
-  height: 295px;
-}
-
 
 /* Page Content */
 
@@ -241,4 +220,5 @@ div.nivo-caption p {
 
 div#block-views-front_page-block_1 {
     padding: 0 20px 0;
+    height: 275px;
   }

@@ -29,6 +29,7 @@
 		<div>
 				<div id="features">
 					<div id="front_blocka" class="feature span-12">
+						<div class="span-12" style="margin-top: -1px; height: 1px;">&nbsp;</div>
 						<div class="content">
 							<?php print $front_a; ?>
 						</div>
