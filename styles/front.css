@@ -113,6 +113,12 @@
 
 /* Page Content */
 
+#block-views-front_page-block_2 .view-front-page .views-field-body {
+  height: 590px;
+  overflow: hidden;
+}
+
+
 .view-front-page .views-field-body {
   height: 277px;
   overflow: hidden;
@@ -219,7 +225,8 @@ div.nivo-caption p {
     font-size: 11px;
   }
 
-div#block-views-front_page-block_1 {
+div#block-views-front_page-block_1, 
+div#block-views-front_page-block_2 {
     padding: 0 20px 0;
     height: 230px;
     overflow: display;
