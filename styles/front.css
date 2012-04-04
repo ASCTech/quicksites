@@ -4,10 +4,6 @@
   /*background: transparent url(../images/front-image-b.png) no-repeat;*/
 }
 
-body.layout-a #front-image {
-  /*background: transparent url(../images/front-image-a.png) no-repeat;*/
-}
-
 #front-header {
   height:263px;
   position:relative;
@@ -54,6 +50,7 @@ body.layout-a #front-image {
 #front-image {
   margin: -31px 0 25px;
   width: 470px;
+  height: 230px; /* Keep feature blocks from doing odd things */
   position: relative;
   overflow: hidden;
 }
