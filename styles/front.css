@@ -222,7 +222,8 @@ div.nivo-caption p {
 div#block-views-front_page-block_1 {
     padding: 0 20px 0;
     height: 230px;
-    overflow: hidden;
+    overflow: display;
+    width: 470px;
     font-size: 13px;
   }
 

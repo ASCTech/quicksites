@@ -40,6 +40,7 @@
 						</div>
 					</div>
 					<div id="front_blockc" class="span-12">
+						<div class="span-12" style="top: -1px; height: 1px;">&nbsp;</div>
 						<div class="content">
 							<?php print $front_c; ?>
 						</div>

@@ -24,10 +24,10 @@ stylesheets[all][] = variations/theme-0/theme.css
 regions[front_image] = Front Page - Image
 regions[front_text] = Front Page - Text
 regions[front_links] = Front Page - Quick Links
-regions[front_a] =  Front Page - A Zone (B & C Only)
-regions[front_b] =  Front Page - B Zone
-regions[front_c] =  Front Page - C Zone
-regions[front_d] =  Front Page - D Zone
+regions[front_a] =  Front - A Zone (Not With Double Rotor)
+regions[front_b] =  Front - B Zone
+regions[front_c] =  Front - C Zone
+regions[front_d] =  Front - D Zone
 
 regions[MainNav] = Main Navigation
 regions[right] = Right Sidebar

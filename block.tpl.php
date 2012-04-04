@@ -1,4 +1,4 @@
-<div class="column block block-<?php print $block->module ?><?php print (($block_zebra == 'even') ? " last" : "") ?> <?php print width; ?>" id="block-<?php print $block->module . "-" . $block->delta ?>">
+<div class="column block block-<?php print $block->module ?><?php print (($block_zebra == 'even') ? " last" : "") ?> " id="block-<?php print $block->module . "-" . $block->delta ?>">
 	<?php if($block->subject){ ?>
 	<h3><?php print $block->subject; ?></h3>
 	<?php } ?>
