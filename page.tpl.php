@@ -48,19 +48,18 @@ $no_title_node_types = array("qs_events", "qs_people");
 <link type="text/css" rel="stylesheet" media="screen" href="<?php print $base_path.$theme_path."/variations/theme-".$quickSites_theme_footer."/footer.css"; ?>" />
 <link type="text/css" rel="stylesheet" media="screen" href="<?php print $base_path.$theme_path."/variations/theme-".$quickSites_theme_header."/header.css"; ?>" />
 <link type="text/css" rel="stylesheet" media="screen" href="<?php print $base_path.$theme_path."/variations/theme-".$quickSites_theme."/theme.css"; ?>" />
+<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 
 <?php
 
     print '
       <style type="text/css">
-      .feature .view-header {
-        background-color:' . $quickSites_features_color . ';
-      }
       .block-poll h3 {
         background-color:' . $quickSites_features_color . ';
         color:' . $quickSites_features_color . ';
       }
-      .feature .view-content {
+      #features .block h3 {
+        background-color:' . $quickSites_features_color . ';
         border-color:' . $quickSites_features_color . ';
       }
       .block-poll {

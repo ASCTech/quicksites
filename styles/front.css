@@ -161,12 +161,16 @@ body.layout-b #features {
   position: relative;
 }
 
-.feature .view-header {
+#features .block h3 {
   float: none;
-  font-size: 1px;
+  font-size: 1.8em;
+  color: white;
+  font-family: 'Oxygen', sans-serif;
   height: 37px;
-  background-position: right bottom;
-  overflow: hidden;
+  text-transform: uppercase;
+  text-align: right;
+  margin-bottom: 0;
+  line-height: 60px;
 }
 
 .feature .view-header a {
