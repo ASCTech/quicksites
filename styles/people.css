@@ -34,6 +34,7 @@ body.page-directory .view-id-People.filter div.views-row {
 body.page-directory .view-id-People.filter div.label {
   font-weight: bold;
   margin-right: .5em;
+}
 
 body.page-directory #directory_glossary a.selected,
 body.page-directory .view-id-People.filter a.selected {
