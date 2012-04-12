@@ -21,10 +21,10 @@ body.page-directory .view-id-People.filter li {
   list-style: none outside none;
 }
 
-body.page-directory .view-id-People.filter {
+#block-views-People-block_2 {
   left: 20%;
   position: relative;
-  width: 80%;
+  width: 90%;
 }
 
 body.page-directory .view-id-People.filter div.views-row {
