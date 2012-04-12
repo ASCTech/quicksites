@@ -15,6 +15,7 @@ stylesheets[screen][] = styles/sidebar.css
 stylesheets[all][] = styles/news.css
 stylesheets[all][] = styles/events.css
 stylesheets[all][] = styles/people.css
+stylesheets[all][] = styles/features.css
 stylesheets[screen][] = styles/inner.css
 stylesheets[screen][] = styles/front.css
 stylesheets[all][] = styles/navbar.css

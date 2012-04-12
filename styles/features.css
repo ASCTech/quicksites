@@ -1,3 +1,20 @@
 @import "news.css";
 @import "events.css";
 @import "people.css";
+
+/* Other Feature Stuff */
+
+.block-poll {
+  border-right: 1px solid;
+  height: 345px;
+  width: 229px;
+}
+
+.block-poll h3 {
+  height: 37px;
+}
+
+.poll .percent {
+  margin-bottom: -1em;
+}
+
