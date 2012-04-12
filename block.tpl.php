@@ -1,12 +1,12 @@
 <div class="column block block-<?php print $block->module ?><?php print (($block_zebra == 'even') ? " last" : "") ?> " id="block-<?php print $block->module . "-" . $block->delta ?>">
-	<?php if($block->module == 'People'){ ?>
+	<?php if($block->module == 'views-People'){ ?>
 	<h3><a href="/directory"><?php print $block->subject; ?></a></h3>
   <?php }?>
-	<?php elseif($block->module == 'Events'){ ?>
+	<?php elseif($block->module == 'views-Events'){ ?>
 	<h3><a href="/events"><?php print $block->subject; ?></a></h3>
-	<?php } elseif($block->module == 'Poll'){ ?>
+	<?php } elseif($block->module == 'poll'){ ?>
 	<h3><a href="/poll"><?php print $block->subject; ?></a></h3>
-	<?php } elseif($block->module == 'News'){ ?>
+	<?php } elseif($block->module == 'views-News'){ ?>
 	<h3><a href="/news"><?php print $block->subject; ?></a></h3>
   <?php } elseif($block->subject){ ?>
   <h3><?php print $block->subject; ?></h3> 
