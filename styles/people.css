@@ -24,7 +24,6 @@ body.page-directory .view-id-People.filter li {
 body.page-directory .view-id-People.filter {
   left: 20%;
   position: relative;
-  top: -53px;
   width: 80%;
 }
 
@@ -35,7 +34,6 @@ body.page-directory .view-id-People.filter div.views-row {
 body.page-directory .view-id-People.filter div.label {
   font-weight: bold;
   margin-right: .5em;
-}
 
 body.page-directory #directory_glossary a.selected,
 body.page-directory .view-id-People.filter a.selected {
@@ -204,7 +202,7 @@ body.node-type-qs-people .field-field-ascpeople-education {
 }
 
 .block-asc_quicksites {
-    margin-top: 45px;
+    margin-top: 0.5em;
  }
 
 #block-views-People-block_4 {
