@@ -23,7 +23,7 @@ h3 a:hover {
 }
 
 .block-poll h3 {
-  height: 37px;
+  font-size: 21px;
 }
 
 .poll .percent {
