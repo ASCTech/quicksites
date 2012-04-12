@@ -4,6 +4,15 @@
 
 /* Other Feature Stuff */
 
+h3 a {
+  color: #fff;
+}
+
+h3 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 .block-poll {
   border-right: 1px solid;
   height: 345px;
