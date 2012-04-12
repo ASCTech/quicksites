@@ -159,6 +159,8 @@ body.layout-b #features {
 
 .feature {
   position: relative;
+  border-right: 1px solid #000;
+  height: 230px;
 }
 
 #features .block h3 {
@@ -181,8 +183,6 @@ body.layout-b #features {
 
 .feature .view-content {
   float: none;
-  border-right: 1px solid #000;
-  height: 230px;
   padding: 20px 10px 0;
 }
 
