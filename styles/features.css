@@ -13,10 +13,13 @@ h3 a:hover {
   text-decoration: none;
 }
 
-.block-poll {
-  border-right: 1px solid;
+.block-poll .content {
   height: 345px;
   width: 229px;
+}
+
+.poll {
+  border-right: 1px solid;
 }
 
 .block-poll h3 {
