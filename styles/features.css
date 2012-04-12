@@ -4,6 +4,11 @@
 
 /* Other Feature Stuff */
 
+#front_blockc,
+#front_blockd {
+  margin-bottom: 30px;
+}
+
 h3 a {
   color: #fff;
 }
@@ -14,7 +19,6 @@ h3 a:hover {
 }
 
 .block-poll .content {
-  height: 345px;
   width: 229px;
 }
 
