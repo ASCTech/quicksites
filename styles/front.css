@@ -125,7 +125,7 @@
 }
 
 .view-id-front_page .view-content {
-  position: absolute;
+  /* position: absolute; */
 }
 
 .view-id-front_page .views-field-nothing {
@@ -271,11 +271,11 @@ h3 a:hover {
 }
 
 .block-poll h3 {
-  font-size: 21px;
+  font-size: 20px;
+  font-weight: 100;
 
 }
 
 .poll .percent {
   margin-bottom: -1em;
-
 }
