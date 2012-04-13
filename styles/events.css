@@ -10,6 +10,9 @@
 #sidebar .calendar-calendar .mini {
   margin-left: 4px;
 }
+#sidebar #block-views-Events-block_2 {
+  width: 100%;
+}
 
 #sidebar .calendar-calendar .month-view table {
   background-color: #5A5347;
