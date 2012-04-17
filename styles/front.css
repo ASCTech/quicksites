@@ -163,7 +163,7 @@ body.layout-b #features {
   height: 230px;
 }
 
-#features .block h3 {
+#features h3.block-title {
   float: none;
   font-size: 1.8em;
   color: white;
