@@ -179,7 +179,7 @@ img.imagefield-field_ascnews_image {
 
 .feature-large.view-id-News .attachment{
   position: absolute;
-  top: 37px;
+  top: 0px;
   right: 0;
 }
 
@@ -237,6 +237,10 @@ img.imagefield-field_ascnews_image {
   bottom: 5px;
   right: 5px;
   background: url(../images/more.png) 0 0 no-repeat;
+}
+
+#block-views-News-block_5 {
+    width: 470px;
 }
 
 #block-views-News-block_4 {

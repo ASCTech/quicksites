@@ -48,9 +48,9 @@
 }
 
 #front-image {
-  margin: -31px 0 25px;
+  margin: -31px 0 0px;
   width: 470px;
-  height: 230px; /* Keep feature blocks from doing odd things */
+  height: 263px; /* Keep feature blocks from doing odd things */
   position: relative;
   overflow: hidden;
 }
