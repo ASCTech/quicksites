@@ -125,7 +125,7 @@
 }
 
 .view-id-front_page .view-content {
-  /* position: absolute; */
+  position: absolute; 
 }
 
 .view-id-front_page .views-field-nothing {
