@@ -176,6 +176,15 @@ body.layout-b #features {
   line-height: 60px;
 }
 
+#features h3.block-title a {
+  color: #fff;
+}
+
+#features h3.block-title a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 .feature .view-header a {
   display: block;
   height: 37px;
@@ -250,16 +259,6 @@ div#block-views-front_page-block_2 {
 
 }
 
-h3 a {
-  color: #fff;
-
-}
-
-h3 a:hover {
-  color: #fff;
-    text-decoration: none;
-
-}
 
 .block-poll .content {
   width: 229px;
