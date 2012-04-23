@@ -126,6 +126,7 @@
 
 .view-id-front_page .view-content {
   position: absolute; 
+  width: 470px;
 }
 
 .view-id-front_page .views-field-nothing {

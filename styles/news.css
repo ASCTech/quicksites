@@ -236,7 +236,8 @@ img.imagefield-field_ascnews_image {
   position: absolute;
   bottom: 5px;
   right: 5px;
-  background: url(../images/more.png) 0 0 no-repeat;
+  /* Removed per Karin on 4/23/2012 */
+  /*  background: url(../images/more.png) 0 0 no-repeat; */
 }
 
 #block-views-News-block_5 {
