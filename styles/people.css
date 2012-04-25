@@ -10,6 +10,10 @@ body.page-directory .view-id-People.filter {
   line-height: 1em;
 }
 
+body.page-directory .views-field-field-ascpeople-image-fid {
+  width: 50px;
+}
+
 body.page-directory #directory_glossary ul,
 body.page-directory .view-id-People.filter ul {
   margin: 0;
