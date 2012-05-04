@@ -9,7 +9,7 @@
 					<?php if($messages){ ?>
 						<div id="message"><?php print $messages; ?></div>
 					<?php } ?>
-					<?php print $site_slogan; ?>
+					<p><?php print $site_slogan; ?></p>
 				</div>
 				<div id="front-links" class="span-8 append-3">
 					<?php print $front_links; ?>
