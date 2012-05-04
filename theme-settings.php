@@ -87,7 +87,7 @@ function quickSites_settings($saved_settings){
         ' width: '.$previewWidth.'px; height: '.$previewFooterHeight.'px;"></div>' .
         '<img id="theme_preview" style="border:1px solid #CCC; position: absolute;" src="' .
         $themeDir.'/theme-'.$settings['quickSites_theme'] .
-        '/preview-'.$settings['quickSites_layout'].'.png" alt="Theme preview" />' .
+        '/preview-b.png" alt="Theme preview" />' .
         '<div id="theme_preview_header" style="position: absolute; top: 1px; left: 1px;' .
         ' width: '.$previewWidth.'px; height: '.$previewHeaderHeight.'px; background: url(' .
         $themeDir.'/theme-'.$settings['quickSites_theme_header'] .
