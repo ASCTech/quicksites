@@ -12,7 +12,7 @@
 					<?php print $front_text; ?>
 				</div>
 				<div id="front-links" class="span-8 append-3">
-					<?php print $site_slogan; ?>
+					<?php print $front_links; ?>
 				</div>
 			</div>			
 			<div id="front-header-banner">
