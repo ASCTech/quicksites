@@ -2,6 +2,7 @@
 
 #front-image {
   /*background: transparent url(../images/front-image-b.png) no-repeat;*/
+  overflow: visible;
 }
 
 #front-header {
@@ -245,13 +246,13 @@ div#block-views-front_page-block_2 {
 
 #front_blockb {
     min-height: 295px;
+    margin-bottom: 30px;
 }
 
 /* Other Feature Stuff */
 
 #front_blockc {
   margin-bottom: 30px;
-
 }
 
 
