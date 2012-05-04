@@ -64,7 +64,7 @@ body.page-directory .view-id-People table tr {
 }
 
 body.page-directory .view-id-People table td {
-  padding: 5px 0;
+  padding: 10px 0;
   border-bottom: 1px solid #ccc;
   vertical-align: top;
 }
@@ -80,20 +80,25 @@ body.page-directory .view-id-People td.views-field-field-ascpeople-image-fid {
 }
 
 /* Added styles for addition of expertise and position fields */
-body.page-directory .view-id-People td.views-field-field-ascpeople-image-fid {
-  width: 50px;
+body.page-directory .view-id-People th.views-field-field-ascpeople-image-fid {
+  width: 46px;
+  padding-right: 20px;
 }
-body.page-directory .view-id-People td.views-field-title {
-  width: 220px;
+
+body.page-directory .view-id-People th.views-field-title {
+  width: 240px;
+  padding-right: 20px;
 }
-body.page-directory .view-id-People td.views-field-field-ascpeople-expertise-value {
-  width: 375px;
+body.page-directory .view-id-People th.views-field-field-ascpeople-expertise-value {
+  width: 242px;
+  padding-right: 20px;
 }
-body.page-directory .view-id-People td.views-field-field-ascpeople-phone-value {
-  width: 100px;
+body.page-directory .view-id-People th.views-field-field-ascpeople-phone-value {
+  width: 112px;
+  padding-right: 20px;
 }
-body.page-directory .view-id-People td.views-field-field-ascpeople-email-email {
-  width: 100px;
+body.page-directory .view-id-People th.views-field-field-ascpeople-email-email {
+  width: 228px;
 }
 
 /* Bio Node */
