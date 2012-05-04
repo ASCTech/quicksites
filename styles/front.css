@@ -1,10 +1,5 @@
 /* Front */
 
-#front-image {
-  /*background: transparent url(../images/front-image-b.png) no-repeat;*/
-  overflow: visible;
-}
-
 #front-header {
   height:263px;
   position:relative;
@@ -53,7 +48,7 @@
   width: 470px;
   height: 263px; /* Keep feature blocks from doing odd things */
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 #front-text {
