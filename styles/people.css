@@ -80,25 +80,30 @@ body.page-directory .view-id-People td.views-field-field-ascpeople-image-fid {
 }
 
 /* Added styles for addition of expertise and position fields */
-body.page-directory .view-id-People th.views-field-field-ascpeople-image-fid {
+body.page-directory .view-id-People th.views-field-field-ascpeople-image-fid,
+body.page-directory .view-id-People td.views-field-field-ascpeople-image-fid {
   width: 46px;
   padding-right: 20px;
 }
 
-body.page-directory .view-id-People th.views-field-title {
+body.page-directory .view-id-People th.views-field-title,
+body.page-directory .view-id-People td.views-field-title {
   width: 240px;
   padding-right: 20px;
 }
-body.page-directory .view-id-People th.views-field-field-ascpeople-expertise-value {
-  width: 242px;
+body.page-directory .view-id-People th.views-field-field-ascpeople-expertise-value, 
+body.page-directory .view-id-People td.views-field-field-ascpeople-expertise-value {
+  width: 262px;
   padding-right: 20px;
 }
-body.page-directory .view-id-People th.views-field-field-ascpeople-phone-value {
+body.page-directory .view-id-People th.views-field-field-ascpeople-phone-value,
+body.page-directory .view-id-People td.views-field-field-ascpeople-phone-value {
   width: 112px;
   padding-right: 20px;
 }
-body.page-directory .view-id-People th.views-field-field-ascpeople-email-email {
-  width: 228px;
+body.page-directory .view-id-People th.views-field-field-ascpeople-email-email,
+body.page-directory .view-id-People td.views-field-field-ascpeople-email-email {
+  width: 208px;
 }
 
 /* Bio Node */
