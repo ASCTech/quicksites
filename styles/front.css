@@ -153,11 +153,6 @@
 
 /* Features */
 
-body.layout-b #features {
-  margin: 25px 0;
-  clear: both;
-}
-
 .feature {
   position: relative;
   border-right: 1px solid #000;

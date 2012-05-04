@@ -22,7 +22,6 @@ function quickSites_settings($saved_settings){
    */
   $defaults = array(
     'quickSites_theme' => 0,
-    'quickSites_layout' => 'a',
     'quickSites_theme_header' => '',
     'quickSites_theme_footer' => '',
     'quickSites_header_left_color' => '#ffffff',
@@ -36,7 +35,6 @@ function quickSites_settings($saved_settings){
   );
 
   // Options
-  $layoutOptions = array('a'=>'A', 'b'=>'B', 'c'=>'C');
   $themeOptions = array("Custom");
   $headerOptions = array(''=>"Theme Default");
   $footerOptions = array(''=>"Theme Default");
@@ -192,15 +190,6 @@ function quickSites_settings($saved_settings){
     '#default_value' => $settings['quickSites_features_color'],
   '#prefix' => '<div style="float: left; width: 140px;">',
   '#suffix' => '</div></fieldset></div>',
-  );
-
-  $form['quickSites_layout'] = array(
-    '#type' => 'radios',
-    '#title' => t('Layout'),
-  '#options' => $layoutOptions,
-    '#default_value' => $settings['quickSites_layout'],
-  '#prefix' => '<div style="float: left; margin-left: 5px; margin-top: -20px;">',
-  '#suffix' => '</div>',
   );
 
   $form['quickSites_asc_branding'] = array(
