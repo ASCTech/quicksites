@@ -250,7 +250,7 @@ div#block-views-front_page-block_2 {
 
 /* Other Feature Stuff */
 
-#front_blockc > .content {
+#front_blockc > .content > .feature {
   margin-top: 30px;
 }
 
