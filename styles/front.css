@@ -51,6 +51,10 @@
   overflow: visible;
 }
 
+#main-content {
+  margin-bottom: 30px;
+}
+
 #front-text {
   top: 30px;
 }
@@ -152,7 +156,7 @@
 .feature {
   position: relative;
   border-right: 1px solid #000;
-  height: 230px;
+  height: 250px;
 }
 
 #features h3.block-title {
@@ -246,8 +250,12 @@ div#block-views-front_page-block_2 {
 
 /* Other Feature Stuff */
 
-#front_blockc {
-  margin-bottom: 30px;
+#front_blockc > .content {
+  margin-top: 30px;
+}
+
+#front_blockc > .content {
+  margin-top: 30px;
 }
 
 
