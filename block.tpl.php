@@ -2,6 +2,8 @@
   <?php if($block->subject){ ?>
 	<?php if(strpos($block->delta, 'People') !== false){ ?>
 	<h3 class="block-title"><a href="/directory"><?php print $block->subject; ?></a></h3>
+	<?php } elseif(strpos($block->delta, 'Research') !== false){ ?>
+	<h3 class="block-title"><a href="/research"><?php print $block->subject; ?></a></h3>
 	<?php } elseif(strpos($block->delta, 'Events') !== false){ ?>
 	<h3 class="block-title"><a href="/events"><?php print $block->subject; ?></a></h3>
 	<?php } elseif(strpos($block->module, 'poll') !== false){ ?>
