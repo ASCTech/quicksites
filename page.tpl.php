@@ -148,7 +148,6 @@ $no_title_node_types = array("qs_events", "qs_people");
 
 
 <?php print $closure;?>
-<script type="text/javascript" src="https://webplayer.yahooapis.com/player.js"></script>
 
 </body>
 

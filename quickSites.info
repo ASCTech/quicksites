@@ -6,6 +6,7 @@ engine = phptemplate
 scripts[] = clearsearch.js
 scripts[] = hidelink.js
 scripts[] = onerotor.js
+scripts[] = player.js
 
 stylesheets[all][] = styles/osu-navbar-media/css/navbar.css
 stylesheets[screen, projection][] = styles/blueprint/screen.css
