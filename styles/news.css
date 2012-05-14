@@ -248,6 +248,10 @@ img.imagefield-field_ascnews_image {
     width: 470px;
 }
 
+#block-views-News-block_4 .content {
+  position: relative;
+}
+
 #block-views-News-block_3 {
     width: 230px;
 }
