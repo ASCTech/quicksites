@@ -161,11 +161,11 @@
 }
 
 #sidebar .block .content p a:link, #sidebar .block .content p a:visited {
-  color: #ccc;
+  /* color: #ccc; // Per Comm */
 }
 #sidebar .block .content p a:hover, #sidebar .block .content p a:active {
-  color: #ccc;
-  text-decoration: underline;
+  /* color: #ccc;
+  text-decoration: underline; // Per Comm */
 }
 
 /* Sidebar styles from old theme.css, keep them down here so they override */
