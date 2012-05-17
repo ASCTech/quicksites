@@ -45,9 +45,6 @@ $no_title_node_types = array("qs_events", "qs_people");
 <title><?php print $head_title ?></title>
 <?php print $head ?>
 <?php print $styles ?>
-<link type="text/css" rel="stylesheet" media="screen" href="<?php print $base_path.$theme_path."/variations/theme-".$quickSites_theme_footer."/footer.css"; ?>" />
-<link type="text/css" rel="stylesheet" media="screen" href="<?php print $base_path.$theme_path."/variations/theme-".$quickSites_theme_header."/header.css"; ?>" />
-<link type="text/css" rel="stylesheet" media="screen" href="<?php print $base_path.$theme_path."/variations/theme-".$quickSites_theme."/theme.css"; ?>" />
 <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 
 <?php
