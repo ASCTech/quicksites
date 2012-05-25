@@ -51,7 +51,7 @@
   overflow: visible;
 }
 
-#main-content {
+.front #main-content {
   margin-bottom: 30px;
 }
 
