@@ -242,7 +242,7 @@ body.node-type-qs-people .field-field-ascpeople-education {
 .view-display-id-page_1 .views-widget-filter-tid .bef-select-as-links {
   position: relative;
   bottom: 1.5em;
-  margin-left: 1em;
+  margin-left: 3em;
 }
 
 .view-display-id-page_1 .views-widget-filter-tid .form-item {
@@ -258,6 +258,10 @@ body.node-type-qs-people .field-field-ascpeople-education {
   display: none;
 }
 
+#sidebar #views-widget-filter-tid_1 {
+  width: 100%;
+}
+
 #sidebar #block-views--exp-People-page_2 {
   width: 100%;
 }
@@ -268,11 +272,13 @@ body.node-type-qs-people .field-field-ascpeople-education {
   text-transform: uppercase;
   background: #5A5347;
   font-family: "Arial Black",Gadget,sans-serif;
-  font-size: 184.6%;
-  line-height: 1.25em;
+  font-size: 140%;
+  line-height: 1.5em;
+  width: 100%;
+  padding-left: 1.5em;
 }
 
-#sidebar #views-exposed-form-People-page-2 .form-item {
+#sidebar #views-exposed-form-People-page-2 .form-item .form-item {
   line-height: 1.4em;
   padding: 6px 0 9px;
   margin: 0 15px;
