@@ -275,12 +275,12 @@ body.node-type-qs-people .field-field-ascpeople-education {
   font-size: 140%;
   line-height: 1.5em;
   width: 100%;
-  padding-left: 1.5em;
+  padding-left: 1em;
 }
 
 #sidebar #views-exposed-form-People-page-2 .form-item .form-item {
   line-height: 1.4em;
   padding: 6px 0 9px;
-  margin: 0 15px;
+  margin: 0 1em;
   background: url(/sites/all/themes/quicksites/images/menu-separator.png) repeat-x left bottom;
 }
