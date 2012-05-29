@@ -246,8 +246,15 @@ body.node-type-qs-people .field-field-ascpeople-education {
   display: inline;
 }
 
+#block-asc_people_filter-0 ul li,
+#block-asc_people_filter-1 ul li {
+  display: inline;
+}
+
 #block-asc_people_filter-0 {
-  border-width: 1px 0 1px;
+  border: 2px solid black;
+  border-left: none;
+  border-right: none;
 }
 
 
