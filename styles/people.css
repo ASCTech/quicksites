@@ -241,10 +241,15 @@ body.node-type-qs-people .field-field-ascpeople-education {
   margin-left: 3em;
 }
 
-.view-display-id-page_1 .views-widget-filter-tid .form-item {
-  float: left;
-  margin-left: 1.25em;
+#block-asc_people_filter-0 ul,
+#block-asc_people_filter-1 ul {
+  display: inline;
 }
+
+#block-asc_people_filter-0 {
+  border: 1px 0 1px solid black;
+}
+
 
 .page-directory .block-asc_people_filter {
   width: 100%;
