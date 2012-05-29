@@ -231,3 +231,23 @@ body.node-type-qs-people .field-field-ascpeople-education {
 #block-views-People-block_1 {
   width: 470px;
 }
+
+
+/* New Filters */
+
+.view-display-id-page_1 .views-widget-filter-tid_1 {
+  display: none;
+}
+
+.view-display-id-page_1 .views-widget-filter-tid .form-item {
+  float: left;
+  margin-left: 2em;
+}
+
+.sidebar .views-widget-filter-tid {
+  display: none;
+}
+
+.sidebar #views-exposed-form-People-page-2 .views-submit-button {
+  display: none;
+}
