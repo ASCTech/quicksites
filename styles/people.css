@@ -239,15 +239,30 @@ body.node-type-qs-people .field-field-ascpeople-education {
   display: none;
 }
 
+.view-display-id-page_1 .views-widget-filter-tid .bef-select-as-links {
+  position: relative;
+  bottom: 1.5em;
+  margin-left: 1em;
+}
+
 .view-display-id-page_1 .views-widget-filter-tid .form-item {
   float: left;
-  margin-left: 2em;
+  margin-left: 1.25em;
 }
 
-.sidebar .views-widget-filter-tid {
+#sidebar .views-widget-filter-tid {
   display: none;
 }
 
-.sidebar #views-exposed-form-People-page-2 .views-submit-button {
+#sidebar #views-exposed-form-People-page-2 .views-submit-button {
   display: none;
+}
+
+#sidebar #views-exposed-form-People-page-2 label {
+  color: white;
+  text-transform: uppercase;
+  background: #5A5347;
+  font-family: "Arial Black",Gadget,sans-serif;
+  font-size: 184.6%;
+  line-height: 1.25em;
 }
