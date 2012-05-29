@@ -69,7 +69,7 @@ if (is_null(theme_get_setting('quickSites_layout'))) {
   theme_get_setting('', TRUE);
 }
 
-function phptemplate_breadcrumb($breadcrumb) {
+function quicksites_phptemplate_breadcrumb($breadcrumb) {
   if (!empty($breadcrumb)) {
     return implode(' &gt; ', $breadcrumb);
   }
