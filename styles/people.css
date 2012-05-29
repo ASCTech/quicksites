@@ -235,10 +235,6 @@ body.node-type-qs-people .field-field-ascpeople-education {
 
 /* New Filters */
 
-.view-display-id-page_1 .views-widget-filter-tid_1 {
-  display: none;
-}
-
 .view-display-id-page_1 .views-widget-filter-tid .bef-select-as-links {
   position: relative;
   bottom: 1.5em;
@@ -250,23 +246,15 @@ body.node-type-qs-people .field-field-ascpeople-education {
   margin-left: 1.25em;
 }
 
-#sidebar .views-widget-filter-tid {
-  display: none;
-}
-
-#sidebar #views-exposed-form-People-page-2 .views-submit-button {
-  display: none;
-}
-
-#sidebar .views-widget-filter-tid_1 {
+.page-directory .block-asc_people_filter {
   width: 100%;
 }
 
-#sidebar #block-views--exp-People-page_2 {
+#sidebar .block-asc_people_filter {
   width: 100%;
 }
 
-#sidebar #views-exposed-form-People-page-2 label {
+#sidebar .block-asc_people_filter h3.block-title {
   display: block;
   color: white;
   text-transform: uppercase;
@@ -278,7 +266,8 @@ body.node-type-qs-people .field-field-ascpeople-education {
   padding-left: 1em;
 }
 
-#sidebar #views-exposed-form-People-page-2 .form-item .form-item {
+.block-asc_people_filter ul li{
+  list-style-type: none;
   line-height: 1.4em;
   padding: 6px 0 9px;
   margin: 0 1em;
