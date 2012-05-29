@@ -52,7 +52,7 @@ body.page-directory .view-id-People.filter a.selected {
 
 body.page-directory .view-id-People table {
   margin-top: 15px;
-  border-top: 1px solid #ccc;
+  border-top: 1px 0 1px;
 }
 
 body.page-directory .view-id-People table thead th {
