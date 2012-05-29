@@ -258,11 +258,23 @@ body.node-type-qs-people .field-field-ascpeople-education {
   display: none;
 }
 
+#sidebar #block-views--exp-People-page_2 {
+  width: 100%;
+}
+
 #sidebar #views-exposed-form-People-page-2 label {
+  display: block;
   color: white;
   text-transform: uppercase;
   background: #5A5347;
   font-family: "Arial Black",Gadget,sans-serif;
   font-size: 184.6%;
   line-height: 1.25em;
+}
+
+#sidebar #views-exposed-form-People-page-2 .form-item {
+  line-height: 1.4em;
+  padding: 6px 0 9px;
+  margin: 0 15px;
+  background: url(/sites/all/themes/quicksites/images/menu-separator.png) repeat-x left bottom;
 }
