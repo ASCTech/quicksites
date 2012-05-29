@@ -73,6 +73,6 @@ if (is_null(theme_get_setting('quickSites_layout'))) {
 //  if (!empty($breadcrumb)) {
 //    return implode(' &gt; ', $breadcrumb);
 //  }
-}
+//}
 
 ?>
