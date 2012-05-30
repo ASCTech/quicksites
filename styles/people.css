@@ -294,7 +294,7 @@ body.node-type-qs-people .field-field-ascpeople-education {
   padding-left: 1em;
 }
 
-.block-asc_people_filter ul li{
+.block-asc_people_filter ul li {
   list-style-type: none;
   line-height: 1.4em;
   padding: 6px 0 9px;
@@ -312,6 +312,10 @@ body.node-type-qs-people .field-field-ascpeople-education {
 
 #block-asc_people_filter-1 ul li a {
   color: black;
+}
+
+#block-asc_people_filter-1 ul li.first {
+  margin-left: 0px;
 }
 
 #block-asc_people_filter-1 ul li a.active {
