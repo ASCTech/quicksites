@@ -25,7 +25,7 @@ body.page-directory #directory_glossary li,
 body.page-directory .view-id-People.filter li {
   display: block;
   float: left;
-  margin: 0 1em 0 0;
+  margin: 0 1.3em 0 0;
   list-style: none outside none;
 }
 
@@ -252,14 +252,27 @@ body.node-type-qs-people .field-field-ascpeople-education {
 }
 
 #block-asc_people_filter-0 {
-  border: 2px solid black;
+  border: 1px solid black;
   border-left: none;
   border-right: none;
+  height: 3em;
+  line-height: 3em;
+  font-weight: bold;
 }
 
 
 .page-directory .block-asc_people_filter {
   width: 100%;
+}
+
+#block-asc_people_filter-1 h3.block-title {
+  float: left;
+  font-size: 18px;
+}
+
+#directory_glossary a {
+  color: #000000;
+  text-decoration: none;
 }
 
 #sidebar .block-asc_people_filter {
@@ -284,4 +297,10 @@ body.node-type-qs-people .field-field-ascpeople-education {
   padding: 6px 0 9px;
   margin: 0 1em;
   background: url(/sites/all/themes/quicksites/images/menu-separator.png) repeat-x left bottom;
+}
+
+#block-asc_people_filter-2 ul li a.active {
+  margin-left: -26px;
+  padding-left: 26px;
+  background: #f5efe5;
 }
