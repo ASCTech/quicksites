@@ -262,6 +262,7 @@ body.node-type-qs-people .field-field-ascpeople-education {
 #block-asc_people_filter-1 h3.block-title {
   float: left;
   font-size: 14px;
+  font-weight: bold;
 }
 
 #directory_glossary a,
