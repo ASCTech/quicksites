@@ -25,7 +25,7 @@ body.page-directory #directory_glossary li,
 body.page-directory .view-id-People.filter li {
   display: block;
   float: left;
-  margin: 0 1.3em 0 0;
+  margin: 0 1.15em 0 0;
   list-style: none outside none;
 }
 
