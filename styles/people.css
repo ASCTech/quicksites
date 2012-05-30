@@ -35,6 +35,10 @@ body.page-directory .view-id-People.filter li {
   width: 90%;
 }
 
+body.page-directory .view-id-People {
+  float: left;
+}
+
 body.page-directory .view-id-People.filter div.views-row {
   float: left;
 }
