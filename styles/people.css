@@ -303,4 +303,6 @@ body.node-type-qs-people .field-field-ascpeople-education {
   margin-left: -26px;
   padding-left: 26px;
   background: #f5efe5;
+  display: block;
+  width: 100%;
 }
