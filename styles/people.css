@@ -44,12 +44,6 @@ body.page-directory .view-id-People.filter div.label {
   margin-right: .5em;
 }
 
-body.page-directory #directory_glossary a.selected,
-body.page-directory .view-id-People.filter a.selected {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
 body.page-directory .view-id-People table {
   margin-top: 15px;
   border-top: 1px 0 1px;
@@ -235,7 +229,7 @@ body.node-type-qs-people .field-field-ascpeople-education {
 
 /* New Filters */
 
-.view-display-id-page_1 .views-widget-filter-tid .bef-select-as-links {
+.page-directory .view-display-id-page_1 .views-widget-filter-tid .bef-select-as-links {
   position: relative;
   bottom: 1.5em;
   margin-left: 3em;
