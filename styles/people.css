@@ -233,12 +233,6 @@ body.node-type-qs-people .field-field-ascpeople-education {
 
 /* New Filters */
 
-.page-directory .view-display-id-page_1 .views-widget-filter-tid .bef-select-as-links {
-  position: relative;
-  bottom: 1.5em;
-  margin-left: 3em;
-}
-
 #block-asc_people_filter-0 ul,
 #block-asc_people_filter-1 ul {
   display: inline;
@@ -256,6 +250,7 @@ body.node-type-qs-people .field-field-ascpeople-education {
   height: 3em;
   line-height: 3em;
   font-weight: bold;
+  padding: 1em 0 1em;
 }
 
 
