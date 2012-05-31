@@ -1,3 +1,24 @@
 #block-views-Research-block_1 {
   width: 470px;
 }
+
+#block-views-Research-block_1 {
+  font-size: 11px;
+}
+
+#block-views-Research-block_1 table tr {
+  border-bottom: 1px dotted #cccccc;
+}
+
+#block-views-Research-block_1 .views-field-field-research-author-nid {
+  font-style: italic;
+}
+
+#block-views-Research-block_1 table td.col-first {
+  border-right: 1px dotted #cccccc; 
+}
+
+#block-views-Research-block_1 table td {
+  vertical-align: top;
+  border-bottom: 1px dotted #cccccc;
+}
