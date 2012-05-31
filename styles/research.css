@@ -10,7 +10,9 @@
   border-bottom: 1px dotted #cccccc;
 }
 
-#block-views-Research-block_1 .views-field-field-research-author-nid {
+#block-views-Research-block_1 .views-field-field-research-author-nid ,
+#block-views-Research-block_1 .views-field-field-research-member-nid ,
+#block-views-Research-block_1 .views-field-field-research-editor-nid {
   font-style: italic;
 }
 
