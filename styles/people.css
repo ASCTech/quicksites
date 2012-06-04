@@ -317,6 +317,11 @@ body.node-type-qs-people .field-field-ascpeople-education {
   background: none;
 }
 
+#block-asc_people_filter-2 ul li ul li a.active {
+  margin-left: -52px;
+  padding-left: 52px;
+}
+
 #block-asc_people_filter-1 ul li a {
   color: black;
 }
