@@ -339,5 +339,6 @@ body.node-type-qs-people .field-field-ascpeople-education {
   bottom: 20px;
   margin-left: 20px;
   width: 110px;
-  background: url('../icons/directory_top.gif') no-repeat right bottom;
+  background: #ddccad url('../icons/directory_top.gif') no-repeat right bottom;
+  padding: 0.5em;
 }
