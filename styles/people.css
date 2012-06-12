@@ -333,3 +333,11 @@ body.node-type-qs-people .field-field-ascpeople-education {
 #block-asc_people_filter-1 ul li a.active {
   color: #990000;
 }
+
+#backtotop {
+  position: fixed;
+  bottom: 20px;
+  margin-left: 20px;
+  width: 110px;
+  background: url('../icons/directory_top.gif') no-repeat right bottom;
+}
