@@ -204,11 +204,17 @@
   overflow: hidden;
 }
 
-.feature .views-row {
+.feature .views-row,
+.feature .views-view-grid {
   font-size: 84.6%;
   line-height: 1.18em;
+
 }
 
+.feature .views-view-grid td {
+  padding-bottom: 11px;
+  vertical-align: top;
+}
 
 /* Misc. Fixes */
 

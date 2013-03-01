@@ -6,7 +6,7 @@
 <?php } ?>
 
 <?php if(!user_is_logged_in()) { ?>
-  <a href="<?php print "https://" . $_SERVER['HTTP_HOST']; ?>/Shibboleth.sso/Login?target=<?php print urlencode("https://" . $_SERVER['HTTP_HOST'] . base_path());?>" style="text-decoration: none; border-bottom: none;"><img src="<?php print base_path() . path_to_theme();?>/icons/user.gif" height="13px" title="Site Administrator Login" alt="Site Administrator Login" /></a>
+  <a href="<?php print shib_auth_generate_login_url();?>" style="text-decoration: none; border-bottom: none;"><img src="<?php print base_path() . path_to_theme();?>/icons/user.gif" height="13px" title="Site Administrator Login" alt="Site Administrator Login" /></a>
 <?php } else { ?>
 	<a href="/logout" style="text-decoration: none; border-bottom: none;"><img src="<?php print base_path() . path_to_theme();?>/icons/user_out.gif" height="13px" title="Logout" alt="Logout" /></a>
   <?php print '<a href="http://gitorious.asc.ohio-state.edu:8080/shot/' . base64_encode('http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']) . '" style="text-decoration: none; border-bottom: none;">Page Screenshot</a>'; ?>
