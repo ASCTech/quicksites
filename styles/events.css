@@ -172,8 +172,7 @@ body.page-events #leftcontent .view-id-Events td.views-field-title {
 /* Event Node */
 
 body.node-type-qs-events #title + div {
-  padding-top: 15px;
-  margin-top:-45px;
+  margin-top:-10px;
 }
 
 body.node-type-qs-events #leftcontent > .content {
