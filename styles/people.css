@@ -8,6 +8,7 @@ body.page-directory #directory_glossary,
 body.page-directory .view-id-People.filter {
   font-size: 107.7%;
   line-height: 1em;
+  width: 100%;
 }
 
 body.page-directory .views-field-field-ascpeople-image-fid {
@@ -30,7 +31,6 @@ body.page-directory .view-id-People.filter li {
 }
 
 #block-views-People-block_2 {
-  left: 20%;
   position: relative;
   width: 90%;
 }
