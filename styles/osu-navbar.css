@@ -82,7 +82,7 @@ only screen and (max-width: 700px) and (min-device-pixel-ratio: 2) {
   #osu_navbar div.links ul li a.map,
   #osu_navbar div.links ul li a.findpeople,
   #osu_navbar div.links ul li a.webmail,
-  #osu_navbar div.links ul li a.search { -webkit-background-size: 23px; -moz-background-size: 23px; background-size: 23px;}
+  #osu_navbar div.links ul li a.search { -webkit-background-size: 23px; -moz-background-size: 23px; background-size: 23px; }
 
 }
 
