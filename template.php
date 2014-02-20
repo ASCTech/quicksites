@@ -75,4 +75,18 @@ function quicksites_phptemplate_breadcrumb($breadcrumb) {
   }
 }
 
+function asc_qs_preprocess_page(&$vars, $hook) {
+  if (empty($_SERVER['HTTPS'])) {
+    $osu_webfont_url = 'http://www.osu.edu/assets/fonts/webfonts.css';
+  }
+  else {
+    $osu_webfont_url = 'https://www.osu.edu/assets/fonts/webfonts.css';
+  }
+  $vars['head'] .= '<link '. drupal_attributes(array(
+    'rel' => 'stylesheet',
+    'type' => 'text/css',
+    'href' => $osu_webfont_url)
+  ) ." />\n";
+}
+
 ?>

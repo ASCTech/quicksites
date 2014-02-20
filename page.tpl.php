@@ -45,7 +45,8 @@ $no_title_node_types = array("qs_events", "qs_people");
 <title><?php print $head_title ?></title>
 <?php print $head ?>
 <?php print $styles ?>
-<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+<!-- <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'> -->
+<link href='//www.osu.edu/assets/fonts/webfonts.css' rel='stylesheet' type='text/css'>
 
 <?php
 
