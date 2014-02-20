@@ -28,14 +28,14 @@ p {
 }
 
 h1 {
-  font-size: 200%;
+  font-size: 30px;
   font-weight: normal;
   color: #1E1918;
   font-family: "capita", Georgia, serif;
 }
 
 h2 {
-  font-size: 153.8%;
+  font-size: 20px;
   font-weight: normal;
   color: #000000;
   font-family: "capita", Georgia, serif;
@@ -43,7 +43,7 @@ h2 {
 }
 
 h3 {
-  font-size: 123.1%;
+  font-size: 18px;
   font-weight: normal;
   color: #000000;
   font-family: "capita", Georgia, serif;
@@ -51,7 +51,7 @@ h3 {
 }
 
 #title {
-  font-size: 230.8%;
+  font-size: 30px;
   margin: 1.3em 0 .75em;
 }
 
