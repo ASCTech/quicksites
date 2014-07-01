@@ -139,6 +139,7 @@ $no_title_node_types = array("qs_events", "qs_people");
 
   <hr id="footer-border"/>
   <div id="footer">
+    <img src="<?php echo $theme_path ?>/images/d6-footer-wordmark-260px.png" width="260" height="23" alt="The Ohio State University">
     <div class="container">
       <?php if (!(isset($quickSites_asc_branding)) || ($quickSites_asc_branding == 1)){ ?>
         <a href="http://artsandsciences.osu.edu/" id="small-banner-2" title="Arts and Sciences homepage">&nbsp;</a>
