@@ -10,6 +10,9 @@
   padding: 1em 3px;
   margin-bottom: 0;
 }
+#contact p:first-child{
+  border-top: none;
+}
 
 #contact img#footer_accessibility_icon {
   margin-bottom: -4px;
