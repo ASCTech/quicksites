@@ -144,7 +144,7 @@ $no_title_node_types = array("qs_events", "qs_people");
         <a href="http://artsandsciences.osu.edu/" id="small-banner-2" title="Arts and Sciences homepage">&nbsp;</a>
       <?php } ?>
       <div id="contact" class="span-7 append-1">
-        <img src="<?php echo $theme_path ?>/images/d6-footer-wordmark-260px.png" width="260" height="23" alt="The Ohio State University">
+        <img src="/<?php echo $theme_path ?>/images/d6-footer-wordmark-260px.png" width="260" height="23" alt="The Ohio State University">
         <?php print $contact_region; ?>
       </div><!-- .contact -->
       <div id="footer-right" class="span-16 last">
