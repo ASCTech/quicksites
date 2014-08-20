@@ -16,7 +16,7 @@
  *   into the navigation, but sometimes needed, like in the year view of mini calendars.
  * 
  */
-//dsm('Display: '. $display_type .': '. $min_date_formatted .' to '. $max_date_formatted);
+dsm('Display: '. $display_type .': '. $min_date_formatted .' to '. $max_date_formatted);
 
 	$view_arg = "";
 	if($active_date = strtotime(basename($_GET['q']))){
@@ -27,7 +27,7 @@
 	}
 ?>
 
-<var><?php var_dump($rows)?></var>
+<pre><?php var_dump($rows)?></pre>
 
 <div class="calendar-calendar"><div class="month-view">
   <?php if ($view->date_info->show_title): ?>
