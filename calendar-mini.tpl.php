@@ -18,13 +18,13 @@
  */
 //dsm('Display: '. $display_type .': '. $min_date_formatted .' to '. $max_date_formatted);
 
-	// $view_arg = "";
-	// if($active_date = strtotime(basename($_GET['q']))){
-	// 	$view_arg = basename($_GET['q']);
-	// }else{
-	// 	$active_date = time();
-	// 	$view_arg = date("Y-m");
-	// }
+	$view_arg = "";
+	if($active_date = strtotime(basename($_GET['q']))){
+		$view_arg = basename($_GET['q']);
+	}else{
+		$active_date = time();
+		$view_arg = date("Y-m");
+	}
 ?>
 
 <div class="calendar-calendar"><div class="month-view">
@@ -46,8 +46,8 @@
       <tr>
         <?php foreach ($row as $cell): ?>
 					<?php var_dump($cell);?>
-			<?php /* "Fix" the year bug*/ //$cell['id'] = str_replace(date("-Y-"), date("-Y-", $active_date), $cell['id']); ?>
-			<?php /* "Fix" the year bug*/ //$cell['data'] = str_replace(date("/Y-"), date("/Y-", $active_date), $cell['data']); ?>
+			<?php /* "Fix" the year bug*/ $cell['id'] = str_replace(date("-Y-"), date("-Y-", $active_date), $cell['id']); ?>
+			<?php /* "Fix" the year bug*/ $cell['data'] = str_replace(date("/Y-"), date("/Y-", $active_date), $cell['data']); ?>
 			<?php $linkdate = str_replace('Events-', '', $cell['id']); ?>
 	          <td id="<?php print $cell['id']; ?>" class="<?php print $cell['class'].(preg_match("/-$view_arg$/", $cell['id']) ? " active":''); ?>">
 	            <a href="/events/<?php print $linkdate; ?>" title="View events on <?php print $linkdate; ?>"><?php print $cell['data']; ?></a>
