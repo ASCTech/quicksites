@@ -31,7 +31,6 @@
 	<?php if ($view->date_info->show_title): ?>
 	  <?php print theme('date_navigation', $view); ?>
 	<?php endif; ?>
-	<?php var_dump($view)?>
 <table class="mini">
   <thead>
     <tr>
