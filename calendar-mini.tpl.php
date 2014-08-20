@@ -48,7 +48,7 @@
 			<?php /* "Fix" the year bug*/ $cell['id'] = str_replace(date("-Y-"), date("-Y-", $active_date), $cell['id']); ?>
 			<?php /* "Fix" the year bug*/ $cell['data'] = str_replace(date("/Y-"), date("/Y-", $active_date), $cell['data']); ?>
 			<?php $linkdate = str_replace('Events-', '', $cell['id']); ?>
-			<?php var_dump($cell);?>
+			<pre><?php var_dump($cell);?></pre>
 	          <td id="<?php print $cell['id']; ?>" class="<?php print $cell['class'].(preg_match("/-$view_arg$/", $cell['id']) ? " active":''); ?>">
 	            <a href="/events/<?php print $linkdate; ?>" title="View events on <?php print $linkdate; ?>"><?php print $cell['data']; ?></a>
 	          </td>
