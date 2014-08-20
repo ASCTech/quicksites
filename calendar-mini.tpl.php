@@ -45,6 +45,7 @@
     <?php foreach ((array) $rows as $row): ?>
       <tr>
         <?php foreach ($row as $cell): ?>
+					<?php var_dump($cell);?>
 			<?php /* "Fix" the year bug*/ //$cell['id'] = str_replace(date("-Y-"), date("-Y-", $active_date), $cell['id']); ?>
 			<?php /* "Fix" the year bug*/ //$cell['data'] = str_replace(date("/Y-"), date("/Y-", $active_date), $cell['data']); ?>
 			<?php $linkdate = str_replace('Events-', '', $cell['id']); ?>
