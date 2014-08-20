@@ -27,8 +27,6 @@ dsm('Display: '. $display_type .': '. $min_date_formatted .' to '. $max_date_for
 	}
 ?>
 
-<pre><?php var_dump($rows)?></pre>
-
 <div class="calendar-calendar"><div class="month-view">
   <?php if ($view->date_info->show_title): ?>
     <?php print theme('date_navigation', $view); ?>
