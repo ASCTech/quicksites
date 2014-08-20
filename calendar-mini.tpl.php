@@ -27,10 +27,12 @@
 	}
 ?>
 
+<var><?php var_dump($rows)?></var>
+
 <div class="calendar-calendar"><div class="month-view">
-	<?php if ($view->date_info->show_title): ?>
-	  <?php print theme('date_navigation', $view); ?>
-	<?php endif; ?>
+  <?php if ($view->date_info->show_title): ?>
+    <?php print theme('date_navigation', $view); ?>
+  <?php endif; ?>
   <table class="mini">
     <thead>
       <tr>
