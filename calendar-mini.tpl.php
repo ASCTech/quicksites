@@ -18,13 +18,13 @@
  */
 //dsm('Display: '. $display_type .': '. $min_date_formatted .' to '. $max_date_formatted);
 
-	$view_arg = "";
-	if($active_date = strtotime(basename($_GET['q']))){
-		$view_arg = basename($_GET['q']);
-	}else{
-		$active_date = time();
-		$view_arg = date("Y-m");
-	}
+	// $view_arg = "";
+	// if($active_date = strtotime(basename($_GET['q']))){
+	// 	$view_arg = basename($_GET['q']);
+	// }else{
+	// 	$active_date = time();
+	// 	$view_arg = date("Y-m");
+	// }
 ?>
 
 <div class="calendar-calendar"><div class="month-view">
